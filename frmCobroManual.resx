@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Grid_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="IDCobro"&gt;&lt;Caption&gt;IDCobro&lt;/Caption&gt;&lt;DataMember&gt;IDCobro&lt;/DataMember&gt;&lt;Key&gt;IDCobro&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column0&gt;&lt;Column1 ID="IdTipoCobro"&gt;&lt;Caption&gt;Tipo&lt;/Caption&gt;&lt;DataMember&gt;IdTipoCobro&lt;/DataMember&gt;&lt;Key&gt;IdTipoCobro&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;43&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="IDFactura"&gt;&lt;Caption&gt;IDFactura&lt;/Caption&gt;&lt;DataMember&gt;IDFactura&lt;/DataMember&gt;&lt;Key&gt;IDFactura&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="IDCliente"&gt;&lt;Caption&gt;Cliente&lt;/Caption&gt;&lt;DataMember&gt;IDCliente&lt;/DataMember&gt;&lt;Key&gt;IDCliente&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;74&lt;/Width&gt;&lt;/Column3&gt;&lt;Column4 ID="Titulo"&gt;&lt;Caption&gt;Título&lt;/Caption&gt;&lt;DataMember&gt;Titulo&lt;/DataMember&gt;&lt;Key&gt;Titulo&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;133&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="CContable"&gt;&lt;Caption&gt;C. Contable&lt;/Caption&gt;&lt;DataMember&gt;CContable&lt;/DataMember&gt;&lt;Key&gt;CContable&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="NFactura"&gt;&lt;Caption&gt;Nº. Factura&lt;/Caption&gt;&lt;DataMember&gt;NFactura&lt;/DataMember&gt;&lt;Key&gt;NFactura&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;73&lt;/Width&gt;&lt;/Column6&gt;&lt;Column7 ID="IDFormaPago"&gt;&lt;Caption&gt;F.P.&lt;/Caption&gt;&lt;DataMember&gt;IDFormaPago&lt;/DataMember&gt;&lt;Key&gt;IDFormaPago&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;38&lt;/Width&gt;&lt;/Column7&gt;&lt;Column8 ID="DescFormaPago"&gt;&lt;Caption&gt;Desc. Forma Pago&lt;/Caption&gt;&lt;DataMember&gt;DescFormaPago&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;DescFormaPago&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;Width&gt;150&lt;/Width&gt;&lt;/Column8&gt;&lt;Column9 ID="FechaVencimiento"&gt;&lt;Caption&gt;Fecha Vto.&lt;/Caption&gt;&lt;DataMember&gt;FechaVencimiento&lt;/DataMember&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;Key&gt;FechaVencimiento&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column9&gt;&lt;Column10 ID="ImpVencimiento"&gt;&lt;Caption&gt;Importe Vto.&lt;/Caption&gt;&lt;DataMember&gt;ImpVencimiento&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;ImpVencimiento&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;89&lt;/Width&gt;&lt;/Column10&gt;&lt;Column11 ID="ImpVencimientoA"&gt;&lt;Caption&gt;ImpVencimientoA&lt;/Caption&gt;&lt;DataMember&gt;ImpVencimientoA&lt;/DataMember&gt;&lt;Key&gt;ImpVencimientoA&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column11&gt;&lt;Column12 ID="ImpVencimientoB"&gt;&lt;Caption&gt;ImpVencimientoB&lt;/Caption&gt;&lt;DataMember&gt;ImpVencimientoB&lt;/DataMember&gt;&lt;Key&gt;ImpVencimientoB&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column12&gt;&lt;Column13 ID="IDRemesa"&gt;&lt;Caption&gt;IDRemesa&lt;/Caption&gt;&lt;DataMember&gt;IDRemesa&lt;/DataMember&gt;&lt;Key&gt;IDRemesa&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column13&gt;&lt;Column14 ID="IDClienteBanco"&gt;&lt;Caption&gt;Banco Cliente&lt;/Caption&gt;&lt;DataMember&gt;IDClienteBanco&lt;/DataMember&gt;&lt;Key&gt;IDClienteBanco&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;73&lt;/Width&gt;&lt;/Column14&gt;&lt;Column15 ID="IDBancoPropio"&gt;&lt;Caption&gt;Banco Propio&lt;/Caption&gt;&lt;DataMember&gt;IDBancoPropio&lt;/DataMember&gt;&lt;Key&gt;IDBancoPropio&lt;/Key&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column15&gt;&lt;Column16 ID="Situacion"&gt;&lt;Caption&gt;Situación&lt;/Caption&gt;&lt;DataMember&gt;Situacion&lt;/DataMember&gt;&lt;Key&gt;Situacion&lt;/Key&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;76&lt;/Width&gt;&lt;/Column16&gt;&lt;Column17 ID="IDEjercicio"&gt;&lt;Caption&gt;IDEjercicio&lt;/Caption&gt;&lt;DataMember&gt;IDEjercicio&lt;/DataMember&gt;&lt;Key&gt;IDEjercicio&lt;/Key&gt;&lt;Position&gt;17&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column17&gt;&lt;Column18 ID="FechaContabilizacion"&gt;&lt;Caption&gt;FechaContabilizacion&lt;/Caption&gt;&lt;DataMember&gt;FechaContabilizacion&lt;/DataMember&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;Key&gt;FechaContabilizacion&lt;/Key&gt;&lt;Position&gt;18&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column18&gt;&lt;Column19 ID="FechaCobro"&gt;&lt;Caption&gt;FechaCobro&lt;/Caption&gt;&lt;DataMember&gt;FechaCobro&lt;/DataMember&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;Key&gt;FechaCobro&lt;/Key&gt;&lt;Position&gt;19&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column19&gt;&lt;Column20 ID="IDMoneda"&gt;&lt;Caption&gt;Moneda&lt;/Caption&gt;&lt;DataMember&gt;IDMoneda&lt;/DataMember&gt;&lt;Key&gt;IDMoneda&lt;/Key&gt;&lt;Position&gt;20&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column20&gt;&lt;Column21 ID="CambioA"&gt;&lt;Caption&gt;Cambio A&lt;/Caption&gt;&lt;DataMember&gt;CambioA&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;CambioA&lt;/Key&gt;&lt;Position&gt;21&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column21&gt;&lt;Column22 ID="CambioB"&gt;&lt;Caption&gt;Cambio B&lt;/Caption&gt;&lt;DataMember&gt;CambioB&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;&lt;Key&gt;CambioB&lt;/Key&gt;&lt;Position&gt;22&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column22&gt;&lt;Column23 ID="RecargoFinanciero"&gt;&lt;Caption&gt;RecargoFinanciero&lt;/Caption&gt;&lt;DataMember&gt;RecargoFinanciero&lt;/DataMember&gt;&lt;Key&gt;RecargoFinanciero&lt;/Key&gt;&lt;Position&gt;23&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column23&gt;&lt;Column24 ID="RecargoFinancieroA"&gt;&lt;Caption&gt;RecargoFinancieroA&lt;/Caption&gt;&lt;DataMember&gt;RecargoFinancieroA&lt;/DataMember&gt;&lt;Key&gt;RecargoFinancieroA&lt;/Key&gt;&lt;Position&gt;24&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column24&gt;&lt;Column25 ID="RecargoFinancieroB"&gt;&lt;Caption&gt;RecargoFinancieroB&lt;/Caption&gt;&lt;DataMember&gt;RecargoFinancieroB&lt;/DataMember&gt;&lt;Key&gt;RecargoFinancieroB&lt;/Key&gt;&lt;Position&gt;25&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column25&gt;&lt;Column26 ID="ARepercutir"&gt;&lt;Caption&gt;ARepercutir&lt;/Caption&gt;&lt;DataMember&gt;ARepercutir&lt;/DataMember&gt;&lt;Key&gt;ARepercutir&lt;/Key&gt;&lt;Position&gt;26&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column26&gt;&lt;Column27 ID="ARepercutirA"&gt;&lt;Caption&gt;ARepercutirA&lt;/Caption&gt;&lt;DataMember&gt;ARepercutirA&lt;/DataMember&gt;&lt;Key&gt;ARepercutirA&lt;/Key&gt;&lt;Position&gt;27&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column27&gt;&lt;Column28 ID="ARepercutirB"&gt;&lt;Caption&gt;ARepercutirB&lt;/Caption&gt;&lt;DataMember&gt;ARepercutirB&lt;/DataMember&gt;&lt;Key&gt;ARepercutirB&lt;/Key&gt;&lt;Position&gt;28&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column28&gt;&lt;Column29 ID="IDDireccion"&gt;&lt;Caption&gt;Dirección&lt;/Caption&gt;&lt;DataMember&gt;IDDireccion&lt;/DataMember&gt;&lt;Key&gt;IDDireccion&lt;/Key&gt;&lt;Position&gt;29&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;/Column29&gt;&lt;Column30 ID="IDCobroAgrupado"&gt;&lt;Caption&gt;IDCobroAgrupado&lt;/Caption&gt;&lt;DataMember&gt;IDCobroAgrupado&lt;/DataMember&gt;&lt;Key&gt;IDCobroAgrupado&lt;/Key&gt;&lt;Position&gt;30&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column30&gt;&lt;Column31 ID="Contabilizado"&gt;&lt;Caption&gt;Contabilizado&lt;/Caption&gt;&lt;DataMember&gt;Contabilizado&lt;/DataMember&gt;&lt;Key&gt;Contabilizado&lt;/Key&gt;&lt;Position&gt;31&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column31&gt;&lt;Column32 ID="Impreso"&gt;&lt;Caption&gt;Impreso&lt;/Caption&gt;&lt;DataMember&gt;Impreso&lt;/DataMember&gt;&lt;Key&gt;Impreso&lt;/Key&gt;&lt;Position&gt;32&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column32&gt;&lt;Column33 ID="Texto"&gt;&lt;Caption&gt;Texto&lt;/Caption&gt;&lt;DataMember&gt;Texto&lt;/DataMember&gt;&lt;Key&gt;Texto&lt;/Key&gt;&lt;Position&gt;33&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column33&gt;&lt;Column34 ID="MarcaAgrupado"&gt;&lt;Caption&gt;MarcaAgrupado&lt;/Caption&gt;&lt;DataMember&gt;MarcaAgrupado&lt;/DataMember&gt;&lt;Key&gt;MarcaAgrupado&lt;/Key&gt;&lt;Position&gt;34&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;33&lt;/Width&gt;&lt;/Column34&gt;&lt;Column35 ID="MarcaCambioAutomatico"&gt;&lt;Caption&gt;MarcaCambioAutomatico&lt;/Caption&gt;&lt;DataMember&gt;MarcaCambioAutomatico&lt;/DataMember&gt;&lt;Key&gt;MarcaCambioAutomatico&lt;/Key&gt;&lt;Position&gt;35&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;33&lt;/Width&gt;&lt;/Column35&gt;&lt;Column36 ID="FechaANegociar"&gt;&lt;Caption&gt;FechaANegociar&lt;/Caption&gt;&lt;DataMember&gt;FechaANegociar&lt;/DataMember&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;Key&gt;FechaANegociar&lt;/Key&gt;&lt;Position&gt;36&lt;/Position&gt;&lt;/Column36&gt;&lt;/Columns&gt;&lt;SortKeys Collection="true" ElementName="SortKey"&gt;&lt;SortKey0 ID="SortKey0"&gt;&lt;ColIndex&gt;14&lt;/ColIndex&gt;&lt;/SortKey0&gt;&lt;/SortKeys&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+</root>
