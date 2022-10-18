@@ -287,7 +287,7 @@ Public Class frmModifCobros
 
             Dim f As New Filter
             f.Add(New StringFilterItem("IdProcess", FilterOperator.Equal, strIDProcess))
-            f.Add(New NumberFilterItem("Contabilizado", enumContabilizado.NoContabilizado))
+            'f.Add(New NumberFilterItem("Contabilizado", enumContabilizado.NoContabilizado))
             .Filter = f
 
             Me.ShowDialog(OwnerForm)
@@ -460,10 +460,10 @@ Public Class frmModifCobros
 
         'fwiNFactura.Enabled = blnEnabled
         'fwiTitulo.Enabled = blnEnabled
-        FwiFechaVtoNew.Enabled = blnEnabled
-        FwIDBancoNew.Enabled = blnEnabled
-        FwIFPagoNew.Enabled = blnEnabled
-        txtTexto.Enabled = blnEnabled
+        FwiFechaVtoNew.Enabled = True
+        FwIDBancoNew.Enabled = True
+        FwIFPagoNew.Enabled = True
+        txtTexto.Enabled = True
         'FwiFechaCobroNew.Enabled = blnEnabled
         'cbxNuevaFechaCancelacion.Enabled = blnEnabled
     End Sub
