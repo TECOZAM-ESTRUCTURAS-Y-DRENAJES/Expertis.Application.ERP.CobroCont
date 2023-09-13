@@ -95,20 +95,20 @@ Public Class frmModifCobros
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.Panel1.Location = New System.Drawing.Point(0, 226)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(658, 133)
+        Me.Panel1.Size = New System.Drawing.Size(1303, 133)
         Me.Panel1.TabIndex = 18
         '
         'txtTexto
         '
         Me.txtTexto.DisabledBackColor = System.Drawing.Color.White
-        Me.txtTexto.Location = New System.Drawing.Point(536, 80)
+        Me.txtTexto.Location = New System.Drawing.Point(1167, 92)
         Me.txtTexto.Name = "txtTexto"
         Me.txtTexto.Size = New System.Drawing.Size(104, 21)
         Me.txtTexto.TabIndex = 32
         '
         'Label1
         '
-        Me.Label1.Location = New System.Drawing.Point(379, 84)
+        Me.Label1.Location = New System.Drawing.Point(1010, 96)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(78, 13)
         Me.Label1.TabIndex = 31
@@ -116,7 +116,7 @@ Public Class frmModifCobros
         '
         'lblFwIDBancoNew
         '
-        Me.lblFwIDBancoNew.Location = New System.Drawing.Point(376, 31)
+        Me.lblFwIDBancoNew.Location = New System.Drawing.Point(1007, 43)
         Me.lblFwIDBancoNew.Name = "lblFwIDBancoNew"
         Me.lblFwIDBancoNew.Size = New System.Drawing.Size(122, 13)
         Me.lblFwIDBancoNew.TabIndex = 24
@@ -124,7 +124,7 @@ Public Class frmModifCobros
         '
         'lblFwIFPagoNew
         '
-        Me.lblFwIFPagoNew.Location = New System.Drawing.Point(376, 55)
+        Me.lblFwIFPagoNew.Location = New System.Drawing.Point(1007, 67)
         Me.lblFwIFPagoNew.Name = "lblFwIFPagoNew"
         Me.lblFwIFPagoNew.Size = New System.Drawing.Size(133, 13)
         Me.lblFwIFPagoNew.TabIndex = 26
@@ -132,7 +132,7 @@ Public Class frmModifCobros
         '
         'lblFwiFechaVtoNew
         '
-        Me.lblFwiFechaVtoNew.Location = New System.Drawing.Point(376, 7)
+        Me.lblFwiFechaVtoNew.Location = New System.Drawing.Point(1007, 19)
         Me.lblFwiFechaVtoNew.Name = "lblFwiFechaVtoNew"
         Me.lblFwiFechaVtoNew.Size = New System.Drawing.Size(153, 13)
         Me.lblFwiFechaVtoNew.TabIndex = 27
@@ -177,7 +177,7 @@ Public Class frmModifCobros
         '
         Me.FwIDBancoNew.DisabledBackColor = System.Drawing.Color.White
         Me.FwIDBancoNew.EntityName = "BancoPropio"
-        Me.FwIDBancoNew.Location = New System.Drawing.Point(536, 31)
+        Me.FwIDBancoNew.Location = New System.Drawing.Point(1167, 43)
         Me.FwIDBancoNew.Name = "FwIDBancoNew"
         Me.FwIDBancoNew.SecondaryDataFields = "IDBancoPropio"
         Me.FwIDBancoNew.Size = New System.Drawing.Size(104, 23)
@@ -188,7 +188,7 @@ Public Class frmModifCobros
         '
         Me.FwIFPagoNew.DisabledBackColor = System.Drawing.Color.White
         Me.FwIFPagoNew.EntityName = "FormaPago"
-        Me.FwIFPagoNew.Location = New System.Drawing.Point(536, 55)
+        Me.FwIFPagoNew.Location = New System.Drawing.Point(1167, 67)
         Me.FwIFPagoNew.Name = "FwIFPagoNew"
         Me.FwIFPagoNew.SecondaryDataFields = "IDFormaPago"
         Me.FwIFPagoNew.Size = New System.Drawing.Size(104, 23)
@@ -198,7 +198,7 @@ Public Class frmModifCobros
         'FwiFechaVtoNew
         '
         Me.FwiFechaVtoNew.DisabledBackColor = System.Drawing.Color.White
-        Me.FwiFechaVtoNew.Location = New System.Drawing.Point(536, 7)
+        Me.FwiFechaVtoNew.Location = New System.Drawing.Point(1167, 19)
         Me.FwiFechaVtoNew.Name = "FwiFechaVtoNew"
         Me.FwiFechaVtoNew.Size = New System.Drawing.Size(104, 21)
         Me.FwiFechaVtoNew.TabIndex = 18
@@ -244,7 +244,7 @@ Public Class frmModifCobros
         Me.grid.Name = "grid"
         Me.grid.PrimaryDataFields = Nothing
         Me.grid.SecondaryDataFields = Nothing
-        Me.grid.Size = New System.Drawing.Size(658, 226)
+        Me.grid.Size = New System.Drawing.Size(1303, 226)
         Me.grid.TabIndex = 19
         Me.grid.Tag = "IdRec=4394:4712:4713:4715:4756:4429:4410:4696:4602:4373:4710:4765:6267:4711:4719:" & _
             "4395:4399:4766:4766:4362:5433:4725:10533:;"
@@ -254,7 +254,7 @@ Public Class frmModifCobros
         'frmModifCobros
         '
         Me.AutoScaleBaseSize = New System.Drawing.Size(6, 14)
-        Me.ClientSize = New System.Drawing.Size(658, 359)
+        Me.ClientSize = New System.Drawing.Size(1303, 359)
         Me.Controls.Add(Me.grid)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "frmModifCobros"
